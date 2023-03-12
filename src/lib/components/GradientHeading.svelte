@@ -3,7 +3,7 @@
 	export let color2: string;
 </script>
 
-<h3 class="text-3xl font-sans-bold text-left">
+<h3 class="text-3xl font-sans-bold tablet:text-left text-center">
 	<span
 		style={`background: -webkit-linear-gradient(135deg, ${color1} 0%, ${color2} 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;`}
 	>

@@ -2,9 +2,9 @@
 	import GradientHeading from '$lib/components/GradientHeading.svelte';
 </script>
 
-<div class="flex h-[600px] justify-center items-center mt-0">
-	<div class="flex-1 flex justify-end mr-16">
-		<div class="w-[500px]">
+<div class="flex tablet:h-[600px] tablet:flex-row flex-col justify-center items-center">
+	<div class="flex-1 flex  tablet:justify-end justify-center tablet:mr-16">
+		<div class="tablet:w-[500px] w-full">
 			<GradientHeading color1="#ff82ea" color2="#ff82ea">Fix</GradientHeading>
 			<p class="font-sans text-left text-text mt-2">
 				With Codactor's "Fix" mode, identifying and repairing errors in your code has never been
@@ -14,8 +14,8 @@
 			</p>
 		</div>
 	</div>
-	<div class="flex-1 flex">
-		<div class="flex flex-col">
+	<div class="flex-1 flex mt-8 tablet:mt-0">
+		<div class="flex flex-col items-center">
 			<div class="p-8 card-container">
 				<img src="/images/fix.png" width={600} height={490} alt="test" />
 			</div>

@@ -2,9 +2,11 @@
 	import GradientHeading from '$lib/components/GradientHeading.svelte';
 </script>
 
-<div class="flex h-[600px] justify-center items-center w-4/5">
-	<div class="flex-1 flex justify-end mr-16">
-		<div class="w-[500px]">
+<div
+	class="flex tablet:h-[600px] tablet:flex-row flex-col justify-center items-center w-full tablet:w-4/5"
+>
+	<div class="flex-1 flex  tablet:justify-end justify-center tablet:mr-16">
+		<div class="w-full tablet:w-[500px]">
 			<GradientHeading color2="#67f5ba" color1="#67f060">Translate</GradientHeading>
 			<p class="font-sans text-left text-text mt-2">
 				Tired of manually translating your code? Our powerful AI assistant has got you covered.
@@ -16,7 +18,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="flex-1 flex-col flex">
+	<div class="flex-1 flex flex-col mt-8 tablet:mt-0">
 		<div class="flex flex-col">
 			<div class="p-2 card-container items-center justify-center flex flex-col">
 				<img src="/images/translate1.png" width={340} height={313} alt="test" />

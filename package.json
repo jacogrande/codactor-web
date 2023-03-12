@@ -28,6 +28,8 @@
 	"type": "module",
 	"dependencies": {
 		"@firebase/app": "^0.9.4",
-		"@firebase/auth": "^0.21.4"
+		"@firebase/auth": "^0.21.4",
+		"@sveltejs/adapter-vercel": "^2.3.1",
+		"svelte-preprocess": "^5.0.1"
 	}
 }
