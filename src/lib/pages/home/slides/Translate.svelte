@@ -25,9 +25,7 @@
 				<img src="/images/translate2.png" width={340} height={268} alt="test" />
 			</div>
 		</div>
-		<p class="italic font-sans text-text mt-4">
-			"Optimize this code to use a list of winning combinations"
-		</p>
+		<p class="italic font-sans text-text mt-4">"Translate this rust code to javascript"</p>
 	</div>
 </div>
 
