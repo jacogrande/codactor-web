@@ -2,7 +2,7 @@
 	import GradientHeading from '$lib/components/GradientHeading.svelte';
 </script>
 
-<div class="flex tablet:h-[600px] tablet:flex-row flex-col justify-center items-center">
+<div class="flex h-[1000px] tablet:h-[600px] tablet:flex-row flex-col justify-center items-center">
 	<div class="flex-1 flex  tablet:justify-end justify-center tablet:mr-16">
 		<div class="tablet:w-[500px] w-full">
 			<GradientHeading color1="#ff82ea" color2="#ff82ea">Fix</GradientHeading>

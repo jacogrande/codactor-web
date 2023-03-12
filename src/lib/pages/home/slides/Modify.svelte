@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="flex tablet:h-[600px] tablet:flex-row flex-col justify-center items-center w-full tablet:w-4/5"
+	class="flex h-[1000px] tablet:h-[600px] tablet:flex-row flex-col justify-center items-center w-full tablet:w-4/5"
 >
 	<div class="flex-1 flex  tablet:justify-end justify-center tablet:mr-16">
 		<div class="w-full tablet:w-[500px]">
