@@ -30,7 +30,6 @@
 			<a href="/demos">Demos</a>
 			<a href="/roadmap">Roadmap</a>
 			{#if loggedIn}
-				<a href="https://github.com/jacogrande/codactor-web/issues">Support</a>
 				<a href="/download">Download</a>
 				<a href="/profile" aria-label="Account">
 					<Fa icon={faUserCircle} class="w-6 h-6" style="font-size: 24px" />
@@ -72,7 +71,6 @@
 			<li><a href="/demos">Demos</a></li>
 			<li><a href="/roadmap">Roadmap</a></li>
 			{#if loggedIn}
-				<li><a href="https://github.com/jacogrande/codactor-web/issues">Support</a></li>
 				<li><a href="/download">Download</a></li>
 				<li class="flex justify-end">
 					<a href="/profile" aria-label="Account">

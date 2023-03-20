@@ -30,9 +30,22 @@
 
 		<button
 			on:click={download}
-			class="py-4 px-8 rounded-full font-sans-bold text-background text-xl mt-24 z-10"
+			class="py-4 px-8 rounded-full font-sans-bold text-background text-xl my-24 z-10"
 			>Download Codactor</button
 		>
+		<h2 class="text-xl mb-4 font-sans-semi">Download Instructions:</h2>
+		<ul class="text-text font-sans text-left z-10">
+			<li>
+				Download the Latest <a
+					href="https://www.java.com/en/download/manual.jsp"
+					class="text-primary">Java Runtime Environment</a
+				> (if not already installed)
+			</li>
+			<li>Download Codactor</li>
+			<li>Right Click the Downloaded File and Click "Open"</li>
+			<li>Login and Enter Your GPT API Key</li>
+			<li>Start Creating</li>
+		</ul>
 	</section>
 </main>
 
@@ -46,5 +59,10 @@
 	}
 	button {
 		background: linear-gradient(135deg, #91eed8 0%, #33b1f8 100%);
+	}
+	li {
+		padding-left: 1rem;
+		border-left: 2px solid #91eed8;
+		margin: 16px 0px;
 	}
 </style>
