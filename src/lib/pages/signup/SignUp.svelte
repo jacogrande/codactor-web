@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { setUserName } from '$lib/config/session_manager';
+	import { goto } from '$app/navigation';
 	import { user } from '$lib/config/userStore';
 
 	let firstName: string = '';
@@ -40,6 +40,7 @@
 			}
 			success = true;
 			user.setName(firstName);
+			goto('/');
 		} catch (err) {
 			console.log(err);
 			error = (err as Error).message;

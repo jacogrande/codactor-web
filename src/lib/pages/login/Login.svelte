@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { goto } from '$app/navigation';
 	import { user } from '$lib/config/userStore';
 
 	let email: string = '';
@@ -29,6 +30,7 @@
 			success = true;
 			// TODO: turn this into their name
 			user.setName(data.userData.firstName);
+			goto('/');
 		} catch (err) {
 			console.log(err);
 			error = (err as Error).message;
