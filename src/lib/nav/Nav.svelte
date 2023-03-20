@@ -63,14 +63,25 @@
 	<div
 		class={`tablet:hidden ${
 			!showDropdown ? 'hidden' : 'flex'
-		} flex-col items-end pt-2 px-4 bg-background absolute right-0`}
+		} flex-col items-end pt-2 px-4 bg-background`}
 		aria-label="Open Navigation Menu"
 		aria-haspopup="menu"
 	>
 		<ul class="space-y-2 text-right text-white font-sans-semi">
 			<li><a href="/">About</a></li>
-			<li><a href="https://github.com/jacogrande/codactor-web/issues">Support</a></li>
-			<li><a href="/signup">Sign Up</a></li>
+			<li><a href="/demos">Demos</a></li>
+			<li><a href="/roadmap">Roadmap</a></li>
+			{#if loggedIn}
+				<li><a href="https://github.com/jacogrande/codactor-web/issues">Support</a></li>
+				<li><a href="/download">Download</a></li>
+				<li class="flex justify-end">
+					<a href="/profile" aria-label="Account">
+						<Fa icon={faUserCircle} class="w-6 h-6" style="font-size: 24px" />
+					</a>
+				</li>
+			{:else}
+				<li><a href="/signup">Sign Up</a></li>
+			{/if}
 		</ul>
 	</div>
 </header>

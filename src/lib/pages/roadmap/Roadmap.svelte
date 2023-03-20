@@ -7,19 +7,19 @@
 		<ul class="flex flex-col mt-24 mb-48">
 			<li class="flex flex-col mb-8">
 				<div class="orb" style="background: #88FFE3; top:0px" />
-				<h2 class="text-xl font-sans-bold" style="margin-top:-2px">Multi-File Fix and Modify</h2>
+				<h2 class="text-xl font-sans-bold" style="margin-top:-2px">GPT-4 Sketch Tool</h2>
+			</li>
+			<li class="flex flex-col mt-8 mb-8">
+				<div class="orb" />
+				<h2 class="text-xl font-sans-bold">IntelliJ Plugin</h2>
 			</li>
 			<li class="flex flex-col mt-8 mb-8">
 				<div class="orb" />
 				<h2 class="text-xl font-sans-bold">Dark Theme</h2>
 			</li>
-			<li class="flex flex-col mt-8 mb-8">
-				<div class="orb" />
-				<h2 class="text-xl font-sans-bold">GPT-4 Sketch Tool</h2>
-			</li>
 			<li class="flex flex-col mt-8">
 				<div class="orb" />
-				<h2 class="text-xl font-sans-bold">IntelliJ Plugin</h2>
+				<h2 class="text-xl font-sans-bold">Multi-File Fix and Modify</h2>
 			</li>
 		</ul>
 	</section>
