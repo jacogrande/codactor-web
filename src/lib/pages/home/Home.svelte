@@ -8,7 +8,7 @@
 	>
 		<img
 			src="/images/test.png"
-			class="absolute width-[100vw] top-24 left-0 hidden tablet:flex"
+			class="absolute width-[100vw] top-24 left-0 hidden laptop:flex"
 			alt="wave"
 		/>
 		<h1
@@ -20,25 +20,44 @@
 	</section>
 	<div class="py-24 w-full flex items-center justify-center">
 		<img
-			src="/images/placeholder.png"
+			src="/images/demo2.webp"
 			alt="Codactor in action"
-			width="75%"
 			height="100%"
-			class="z-10 demo"
+			class="z-10 demo laptop:w-[75%] w-[90%]"
 		/>
 	</div>
 	<section
 		class="w-full laptop:px-16 px-4 py-16 flex flex-col items-center justify-between text-white text-center pb-[200px]"
 	>
 		<h2 class="text-4xl font-sans-bold pb-4">Write AI Powered Code</h2>
-		<p class="tablet:w-3/5 w-full text-left text-text text mb-4 font-sans">
+		<p class="tablet:w-4/5 laptop:w-3/5 w-full text-left text-text text mb-4 font-sans">
 			Say goodbye to the hassle of writing code manually. With Codactor, you can write code faster
 			and smarter than ever before. Our revolutionary code editor is fully integrated with the GPT
 			API, enabling you to create AI-assisted code that is both accurate and efficient.
 		</p>
+		<div class="py-24 laptop:w-3/5 tablet:w-4/5 flex items-center justify-center">
+			<img src="/images/demo 3.webp" alt="Codactor in action" class="z-10 demo" />
+		</div>
+
+		<h2 class="text-4xl font-sans-bold pb-4 pt-24">Create Entire Projects From Scratch</h2>
+		<p class="tablet:w-4/5 laptop:w-3/5 w-full text-left text-text text font-sans">
+			Building an entire project can be a time-consuming and tedious process, but with Codactor's
+			'Create Files' feature, it's never been easier. Our editor allows you to create multiple files
+			all with just one command, saving you time and effort.
+		</p>
+
+		<div class="py-24 laptop:w-3/5 tablet:w-4/5 flex flex-col items-center justify-center">
+			<img src="/images/multifile.webp" alt="Codactor in action" class="z-10 demo" />
+			<p class="italic font-sans text-text mt-4">
+				*This feature requires GPT-4 access. If you're not signed up for the beta, you can <a
+					href="https://openai.com/waitlist/gpt-4-api"
+					class="text-primary">sign up here.</a
+				>
+			</p>
+		</div>
 
 		<h2 class="text-4xl font-sans-bold pb-4 pt-36">Multiple Modes</h2>
-		<p class="tablet:w-3/5 w-full text-left text-text text font-sans mb-12">
+		<p class="tablet:w-4/5 laptop:w-3/5 w-full text-left text-text text font-sans mb-12">
 			Our code editor offers a range of modes, each designed to perform specific code actions that
 			produce powerful results. Each mode offers a unique set of tools and features, giving you the
 			freedom to choose the one that suits your specific coding needs. With Codactor, you'll have
@@ -47,7 +66,7 @@
 		<ModeSlideshow />
 
 		<h2 class="text-4xl font-sans-bold pb-4 pt-36">Queue Multiple Edits</h2>
-		<p class="tablet:w-3/5 w-full text-left text-text text font-sans">
+		<p class="tablet:w-4/5 laptop:w-3/5 w-full text-left text-text text font-sans">
 			Why make only one change at a time? With Codactor, you have the flexibility to edit selections
 			and queue up multiple changes at once, making your coding process faster and more efficient.
 			Our unique input box allows you to input multiple changes at once, including selections of
@@ -55,17 +74,29 @@
 			analyze your selections and execute your edits in the order you specify, ensuring that your
 			code is always accurate and error-free.
 		</p>
+		<div class="flex mt-16 laptop:w-3/5 tablet:w-4/5">
+			<video
+				autoplay
+				loop
+				muted
+				playsinline
+				class="rounded-xl"
+				aria-label="A user using the WYSIWYG nps theme editor. First, they use our Point and Click editor to easily change the background color of the nps survey. Then, they use our CSS editor to add custom styles."
+			>
+				<source src="/images/demo_video.webm" type="video/webm" />
+			</video>
+		</div>
 		<h2 class="text-4xl font-sans-bold pb-4 pt-36">You're Invited</h2>
-		<p class="tablet:w-3/5 w-full text-left text-text text font-sans">
+		<p class="tablet:w-4/5 laptop:w-3/5 w-full text-left text-text text font-sans">
 			Join the revolution of AI-assisted coding with Codactor today and experience faster, more
 			efficient, and error-free coding. <a href="/signup" class="text-primary">Sign up now</a> and take
 			the first step towards a new era of AI-powered code.
 		</p>
-		<a href="/signup"
-			><button class="text-2xl py-4 px-8 rounded-full mt-24 font-bold text-background">
+		<a href="/signup" class="mt-24 z-10">
+			<button class="text-2xl py-4 px-8 rounded-full font-bold text-background">
 				Sign up now
-			</button></a
-		>
+			</button>
+		</a>
 	</section>
 </main>
 

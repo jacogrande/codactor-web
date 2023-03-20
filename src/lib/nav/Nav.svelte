@@ -1,8 +1,24 @@
 <script lang="ts">
+	import Fa from 'svelte-fa';
+	import { faUserCircle } from '@fortawesome/free-regular-svg-icons';
+	import { onDestroy, onMount } from 'svelte';
+	import { user } from '$lib/config/userStore';
+
 	let showDropdown = false;
 	const toggleDropdown = () => {
 		showDropdown = !showDropdown;
 	};
+
+	let loggedIn = false;
+
+	const unsubscribe = user.subscribe(($user) => {
+		loggedIn = Boolean($user);
+	});
+
+	// Unsubscribe when the component is destroyed
+	onDestroy(() => {
+		unsubscribe();
+	});
 </script>
 
 <header>
@@ -11,8 +27,17 @@
 		<div class="space-x-8 text font-sans-semi text-white items-center hidden tablet:flex">
 			<!-- <a href="/">Login</a> -->
 			<a href="/">About</a>
-			<a href="https://github.com/jacogrande/codactor-web/issues">Support</a>
-			<a href="/signup">Sign Up</a>
+			<a href="/demos">Demos</a>
+			<a href="/roadmap">Roadmap</a>
+			{#if loggedIn}
+				<a href="https://github.com/jacogrande/codactor-web/issues">Support</a>
+				<a href="/download">Download</a>
+				<a href="/profile" aria-label="Account">
+					<Fa icon={faUserCircle} class="w-6 h-6" style="font-size: 24px" />
+				</a>
+			{:else}
+				<a href="/signup">Sign Up</a>
+			{/if}
 		</div>
 		<button
 			class="text-white text-lg active:text-blue flex tablet:hidden"

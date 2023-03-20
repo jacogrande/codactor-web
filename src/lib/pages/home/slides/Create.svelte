@@ -2,9 +2,9 @@
 	import GradientHeading from '$lib/components/GradientHeading.svelte';
 </script>
 
-<div class="flex h-[1000px] tablet:h-[600px] tablet:flex-row flex-col justify-center items-center">
-	<div class="flex-1 flex  tablet:justify-end justify-center tablet:mr-16">
-		<div class="tablet:w-[500px] w-full">
+<div class="flex h-[1000px] laptop:h-[600px] laptop:flex-row flex-col justify-center items-center">
+	<div class="flex-1 flex  laptop:justify-end justify-center laptop:mr-16">
+		<div class="laptop:w-[500px] w-full">
 			<GradientHeading color2="#91eed8" color1="#33b1f8">Create</GradientHeading>
 			<p class="font-sans text-left text-text mt-2">
 				Whether you need to generate new code from scratch or create an entire application
@@ -16,10 +16,10 @@
 			</p>
 		</div>
 	</div>
-	<div class="flex-1 flex mt-8 tablet:mt-0">
+	<div class="flex-1 flex mt-8 laptop:mt-0">
 		<div class="flex flex-col items-center">
 			<div class="p-8 card-container">
-				<img src="/images/create.png" width={600} height={490} alt="test" />
+				<img src="/images/create.webp" width={600} height={490} alt="test" />
 			</div>
 			<p class="italic font-sans text-text mt-4">
 				"Write a two player game of tic tac toe in python"

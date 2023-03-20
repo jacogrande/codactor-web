@@ -3,10 +3,10 @@
 </script>
 
 <div
-	class="flex h-[1000px] tablet:h-[600px] tablet:flex-row flex-col justify-center items-center w-full tablet:w-4/5"
+	class="flex h-[1000px] laptop:h-[600px] laptop:flex-row flex-col justify-center items-center w-full laptop:w-4/5"
 >
-	<div class="flex-1 flex  tablet:justify-end justify-center tablet:mr-16">
-		<div class="w-full tablet:w-[500px]">
+	<div class="flex-1 flex  laptop:justify-end justify-center laptop:mr-16">
+		<div class="w-full laptop:w-[500px]">
 			<GradientHeading color2="#67f5ba" color1="#67f060">Translate</GradientHeading>
 			<p class="font-sans text-left text-text mt-2">
 				Tired of manually translating your code? Our powerful AI assistant has got you covered.
@@ -18,11 +18,11 @@
 			</p>
 		</div>
 	</div>
-	<div class="flex-1 flex flex-col mt-8 tablet:mt-0">
+	<div class="flex-1 flex flex-col mt-8 laptop:mt-0">
 		<div class="flex flex-col">
 			<div class="p-2 card-container items-center justify-center flex flex-col">
-				<img src="/images/translate1.png" width={340} height={313} alt="test" />
-				<img src="/images/translate2.png" width={340} height={268} alt="test" />
+				<img src="/images/translate1.webp" width={340} height={313} alt="test" />
+				<img src="/images/translate2.webp" width={340} height={268} alt="test" />
 			</div>
 		</div>
 		<p class="italic font-sans text-text mt-4">"Translate this rust code to javascript"</p>
