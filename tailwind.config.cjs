@@ -7,7 +7,8 @@ module.exports = {
 				background: '#232a36',
 				darkBackground: '#1e252f',
 				text: '#d8e2ed',
-				primary: '#88FFE3'
+				primary: '#88FFE3',
+				error: '#ff5959'
 			},
 			screens: {
 				tablet: '640px',
