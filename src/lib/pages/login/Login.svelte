@@ -30,7 +30,7 @@
 			success = true;
 			// TODO: turn this into their name
 			user.setName(data.userData.firstName);
-			goto('/');
+			goto('/download');
 		} catch (err) {
 			console.log(err);
 			error = (err as Error).message;

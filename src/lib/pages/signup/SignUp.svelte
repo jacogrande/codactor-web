@@ -40,7 +40,7 @@
 			}
 			success = true;
 			user.setName(firstName);
-			goto('/');
+			goto('/download');
 		} catch (err) {
 			console.log(err);
 			error = (err as Error).message;
