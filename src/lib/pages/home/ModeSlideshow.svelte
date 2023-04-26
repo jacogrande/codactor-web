@@ -19,7 +19,7 @@
 
 	// Start slideshow when scrolled to
 	let container: HTMLDivElement;
-	const slideLength = 6000;
+	const slideLength = 12000;
 	let slideshowPlaying = false;
 	let interactedWith = false;
 	let timeout: NodeJS.Timeout;

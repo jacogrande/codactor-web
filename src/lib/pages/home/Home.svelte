@@ -56,6 +56,25 @@
 			</p>
 		</div>
 
+		<h2 class="text-4xl font-sans-bold pb-4 pt-24">IntelliJ Plugin Coming Soon</h2>
+		<p class="tablet:w-4/5 laptop:w-3/5 w-full text-left text-text text font-sans">
+			Elevate your IntelliJ experience to new heights with our upcoming Codactor plugin. Seamlessly
+			integrate our AI-powered code generation, multi-file management, and unique coding modes
+			directly into your favorite IDE. Stay tuned for a smarter, more efficient, and intuitive
+			coding experience with the Codactor IntelliJ plugin.
+		</p>
+
+		<div class="py-24 w-full laptop:w-3/5 tablet:w-4/5 flex flex-col items-center justify-center">
+			<iframe
+				class="w-full laptop:h-[650px] tablet:h-[350px] h-[300px] rounded-lg"
+				src="https://www.youtube.com/embed/ev_B-GBSc5Y"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				allowfullscreen
+			/>
+		</div>
+
 		<h2 class="text-4xl font-sans-bold pb-4 pt-36">Multiple Modes</h2>
 		<p class="tablet:w-4/5 laptop:w-3/5 w-full text-left text-text text font-sans mb-12">
 			Our code editor offers a range of modes, each designed to perform specific code actions that
@@ -87,7 +106,7 @@
 			</video>
 		</div>
 		<h2 class="text-4xl font-sans-bold pb-4 pt-36">You're Invited</h2>
-		<p class="tablet:w-4/5 laptop:w-3/5 w-full text-left text-text text font-sans">
+		<p class="tablet:w-4/5 laptop:w-3/5 w-full text-left text-text text font-sans z-10">
 			Join the revolution of AI-assisted coding with Codactor today and experience faster, more
 			efficient, and error-free coding. <a href="/signup" class="text-primary">Sign up now</a> and take
 			the first step towards a new era of AI-powered code.

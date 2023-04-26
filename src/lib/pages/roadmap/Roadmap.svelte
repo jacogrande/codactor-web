@@ -4,22 +4,46 @@
 	>
 		<h1 class="text-5xl font-sans-bold tablet:w-[600px] leading-[4rem] pb-4">Feature Roadmap</h1>
 		<p class="text-xl font-sans-semi">Our Plan for the Future of AI-Assisted Coding</p>
-		<ul class="flex flex-col mt-24 mb-48">
+		<ul class="flex flex-col mt-24 mb-48 w-3/5">
 			<li class="flex flex-col mb-8">
 				<div class="orb" style="background: #88FFE3; top:0px" />
-				<h2 class="text-xl font-sans-bold" style="margin-top:-2px">GPT-4 Sketch Tool</h2>
+				<h2 class="text-xl font-sans-bold" style="margin-top:-2px">IntelliJ Plugin</h2>
+				<p class="text-base font-sans text-left text-text">
+					Supercharge your IntelliJ experience with our powerful plugin, integrating Codactor's
+					advanced features seamlessly into your favorite IDE.
+				</p>
 			</li>
-			<li class="flex flex-col mt-8 mb-8">
+			<li class="flex flex-col mb-8">
 				<div class="orb" />
-				<h2 class="text-xl font-sans-bold">IntelliJ Plugin</h2>
+				<h2 class="text-xl font-sans-bold">Sonarqube powered bug fixer / unit test generator</h2>
+				<p class="text-base font-sans text-left text-text">
+					Elevate your code quality with our Sonarqube-integrated bug fixer and automatic unit test
+					generator, ensuring your software stays robust and reliable.
+				</p>
 			</li>
-			<li class="flex flex-col mt-8 mb-8">
+			<li class="flex flex-col mb-8">
+				<div class="orb" />
+				<h2 class="text-xl font-sans-bold">GPT-4 Powered Sketch Tool and Image Inputs</h2>
+				<p class="text-base font-sans text-left text-text">
+					Unleash the potential of your diagrams and designs with our versatile GPT-4 powered sketch
+					tool, seamlessly transforming visuals into code.
+				</p>
+			</li>
+			<li class="flex flex-col mb-8">
 				<div class="orb" />
 				<h2 class="text-xl font-sans-bold">Dark Theme</h2>
+				<p class="text-base font-sans text-left text-text">
+					Code in style and comfort with Codactor's sleek dark theme, designed to reduce eye strain
+					and enhance focus during late-night coding sessions.
+				</p>
 			</li>
-			<li class="flex flex-col mt-8">
+			<li class="flex flex-col">
 				<div class="orb" />
 				<h2 class="text-xl font-sans-bold">Multi-File Fix and Modify</h2>
+				<p class="text-base font-sans text-left text-text">
+					Effortlessly manage and modify multiple files at once with our innovative multi-file fix
+					feature, streamlining your code maintenance process.
+				</p>
 			</li>
 		</ul>
 	</section>
