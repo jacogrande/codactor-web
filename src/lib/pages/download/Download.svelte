@@ -28,10 +28,14 @@
 		<h1 class="text-5xl font-sans-bold tablet:w-[600px] leading-[4rem] pb-4">Welcome Aboard</h1>
 		<p class="text-xl font-sans-semi">Are you ready to supercharge your coding workflow?</p>
 
+		<p class="text-lg font-sans-semi">
+			Oops... Codactor is currently under maintenance and cannot be downloaded at this time. Feel
+			free to <a href="/plugin" class="text-primary">checkout our IntelliJ Plugin</a> in the meantime.
+		</p>
 		<button
 			on:click={download}
 			class="py-4 px-8 rounded-full font-sans-bold text-background text-xl my-24 z-10"
-			>Download Codactor</button
+			disabled>Download Codactor</button
 		>
 		<h2 class="text-xl mb-4 font-sans-semi">Download Instructions:</h2>
 		<ul class="text-text font-sans text-left z-10">

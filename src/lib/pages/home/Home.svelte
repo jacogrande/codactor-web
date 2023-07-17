@@ -124,6 +124,7 @@
 		/* text-gradient to bottom right from #33B1F8 to #91EED8 */
 		background: -webkit-linear-gradient(135deg, #91eed8 0%, #33b1f8 100%);
 		-webkit-background-clip: text;
+		background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
 	.demo {

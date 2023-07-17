@@ -27,6 +27,7 @@
 		<div class="space-x-8 text font-sans-semi text-white items-center hidden tablet:flex">
 			<!-- <a href="/">Login</a> -->
 			<a href="/">About</a>
+			<a href="/plugin">Plugin</a>
 			<a href="/demos">Demos</a>
 			<a href="/roadmap">Roadmap</a>
 			{#if loggedIn}
@@ -68,6 +69,7 @@
 	>
 		<ul class="space-y-2 text-right text-white font-sans-semi">
 			<li><a href="/">About</a></li>
+			<li><a href="/plugin">Plugin</a></li>
 			<li><a href="/demos">Demos</a></li>
 			<li><a href="/roadmap">Roadmap</a></li>
 			{#if loggedIn}
