@@ -29,7 +29,6 @@
 			<a href="/">About</a>
 			<a href="/plugin">Plugin</a>
 			<a href="/demos">Demos</a>
-			<a href="/roadmap">Roadmap</a>
 			{#if loggedIn}
 				<a href="/download">Download</a>
 				<a href="/profile" aria-label="Account">
@@ -71,7 +70,6 @@
 			<li><a href="/">About</a></li>
 			<li><a href="/plugin">Plugin</a></li>
 			<li><a href="/demos">Demos</a></li>
-			<li><a href="/roadmap">Roadmap</a></li>
 			{#if loggedIn}
 				<li><a href="/download">Download</a></li>
 				<li class="flex justify-end">
