@@ -23,12 +23,12 @@
 
 <main class="bg-background flex-1">
 	<section
-		class="w-full laptop:px-16 px-4 pt-24 flex flex-col items-center justify-between text-white text-center"
+		class="w-full laptop:px-16 px-4 pt-24 flex flex-col items-center justify-between text-white text-center z-10"
 	>
 		<h1 class="text-5xl font-sans-bold tablet:w-[600px] leading-[4rem] pb-4">Welcome Aboard</h1>
 		<p class="text-xl font-sans-semi">Are you ready to supercharge your coding workflow?</p>
 
-		<p class="text-lg font-sans-semi">
+		<p class="text-lg font-sans-semi z-10">
 			Oops... Codactor is currently under maintenance and cannot be downloaded at this time. Feel
 			free to <a href="/plugin" class="text-primary">checkout our IntelliJ Plugin</a> in the meantime.
 		</p>
