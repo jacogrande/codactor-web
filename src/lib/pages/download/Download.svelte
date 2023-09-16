@@ -27,29 +27,9 @@
 	>
 		<h1 class="text-5xl font-sans-bold tablet:w-[600px] leading-[4rem] pb-4">Welcome Aboard</h1>
 		<p class="text-xl font-sans-semi">Are you ready to supercharge your coding workflow?</p>
-
-		<p class="text-lg font-sans-semi z-10">
-			Oops... Codactor is currently under maintenance and cannot be downloaded at this time. Feel
-			free to <a href="/plugin" class="text-primary">checkout our IntelliJ Plugin</a> in the meantime.
-		</p>
-		<button
-			on:click={download}
+		<a href="https://plugins.jetbrains.com/plugin/21640-codactor"
 			class="py-4 px-8 rounded-full font-sans-bold text-background text-xl my-24 z-10"
-			disabled>Download Codactor</button
-		>
-		<h2 class="text-xl mb-4 font-sans-semi">Download Instructions:</h2>
-		<ul class="text-text font-sans text-left z-10">
-			<li>
-				Download the Latest <a
-					href="https://www.java.com/en/download/manual.jsp"
-					class="text-primary">Java Runtime Environment</a
-				> (if not already installed)
-			</li>
-			<li>Download Codactor</li>
-			<li>Right Click the Downloaded File and Click "Open"</li>
-			<li>Login and Enter Your GPT API Key</li>
-			<li>Start Creating</li>
-		</ul>
+			>Download Codactor</a>
 	</section>
 </main>
 
@@ -61,7 +41,7 @@
 		background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
-	button {
+	a {
 		background: linear-gradient(135deg, #91eed8 0%, #33b1f8 100%);
 	}
 	li {
