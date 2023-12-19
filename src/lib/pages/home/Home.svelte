@@ -16,11 +16,13 @@
 		>
 			Your Personal AI Coding Assistant
 		</h1>
-		<p class="text-xl font-sans-semi mt-4">The First GPT Powered Code Editor</p>
+		<p class="text-xl font-sans-semi mt-4">
+			Discover the future of development, directly in IntelliJ.
+		</p>
 	</section>
 	<div class="py-24 w-full flex items-center justify-center">
 		<img
-			src="/images/demo2.webp"
+			src="/images/new/First Modification.png"
 			alt="Codactor in action"
 			height="100%"
 			class="z-10 demo laptop:w-[75%] w-[90%]"
@@ -36,32 +38,18 @@
 			API, enabling you to create AI-assisted code that is both accurate and efficient.
 		</p>
 		<div class="py-24 laptop:w-3/5 tablet:w-4/5 flex items-center justify-center">
-			<img src="/images/demo 3.webp" alt="Codactor in action" class="z-10 demo" />
+			<img
+				src="/images/new/ai powered code.png"
+				alt="A Modify command inputted into Codactor"
+				class="z-10 demo"
+			/>
 		</div>
 
-		<h2 class="text-4xl font-sans-bold pb-4 pt-24">Create Entire Projects From Scratch</h2>
+		<h2 class="text-4xl font-sans-bold pb-4 pt-24">Seamless Integration with IntelliJ</h2>
 		<p class="tablet:w-4/5 laptop:w-3/5 w-full text-left text-text text font-sans">
-			Building an entire project can be a time-consuming and tedious process, but with Codactor's
-			'Create Files' feature, it's never been easier. Our editor allows you to create multiple files
-			all with just one command, saving you time and effort.
-		</p>
-
-		<div class="py-24 laptop:w-3/5 tablet:w-4/5 flex flex-col items-center justify-center">
-			<img src="/images/multifile.webp" alt="Codactor in action" class="z-10 demo" />
-			<p class="italic font-sans text-text mt-4">
-				*This feature requires GPT-4 access. If you're not signed up for the beta, you can <a
-					href="https://openai.com/waitlist/gpt-4-api"
-					class="text-primary">sign up here.</a
-				>
-			</p>
-		</div>
-
-		<h2 class="text-4xl font-sans-bold pb-4 pt-24">IntelliJ Plugin Coming Soon</h2>
-		<p class="tablet:w-4/5 laptop:w-3/5 w-full text-left text-text text font-sans">
-			Elevate your IntelliJ experience to new heights with our upcoming Codactor plugin. Seamlessly
-			integrate our AI-powered code generation, multi-file management, and unique coding modes
-			directly into your favorite IDE. Stay tuned for a smarter, more efficient, and intuitive
-			coding experience with the Codactor IntelliJ plugin.
+			Elevate your IntelliJ experience to new heights with our Codactor plugin. Harness AI-powered
+			code generation, multi-file management, and unique coding modes directly into your favorite
+			IDE. A smarter, more efficient, and intuitive coding experience is just an install away.
 		</p>
 
 		<div class="py-24 w-full laptop:w-3/5 tablet:w-4/5 flex flex-col items-center justify-center">
@@ -75,6 +63,27 @@
 			/>
 		</div>
 
+		<h2 class="text-4xl font-sans-bold pb-4 pt-24">Cutting-edge Codebase Comprehension</h2>
+		<p class="tablet:w-4/5 laptop:w-3/5 w-full text-left text-text text font-sans">
+			With Codactor's deep reading capabilities, unlock a panoramic view of your project's
+			architecture. Dive deep into the code's DNA and emerge with strategic insights that propel
+			your project forward.
+		</p>
+
+		<div class="py-24 laptop:w-3/5 tablet:w-4/5 flex flex-col items-center justify-center">
+			<img
+				src="/images/new/Coding Comprehension.png"
+				alt="Advanced deep reading inquiry"
+				class="z-10 demo"
+			/>
+			<!-- <p class="italic font-sans text-text mt-4"> -->
+			<!-- 	*This feature requires GPT-4 access. If you're not signed up for the beta, you can <a -->
+			<!-- 		href="https://openai.com/waitlist/gpt-4-api" -->
+			<!-- 		class="text-primary">sign up here.</a -->
+			<!-- 	> -->
+			<!-- </p> -->
+		</div>
+
 		<h2 class="text-4xl font-sans-bold pb-4 pt-36">Multiple Modes</h2>
 		<p class="tablet:w-4/5 laptop:w-3/5 w-full text-left text-text text font-sans mb-12">
 			Our code editor offers a range of modes, each designed to perform specific code actions that
@@ -84,26 +93,19 @@
 		</p>
 		<ModeSlideshow />
 
-		<h2 class="text-4xl font-sans-bold pb-4 pt-36">Queue Multiple Edits</h2>
+		<h2 class="text-4xl font-sans-bold pb-4 pt-36">Codactor Understands Context</h2>
 		<p class="tablet:w-4/5 laptop:w-3/5 w-full text-left text-text text font-sans">
-			Why make only one change at a time? With Codactor, you have the flexibility to edit selections
-			and queue up multiple changes at once, making your coding process faster and more efficient.
-			Our unique input box allows you to input multiple changes at once, including selections of
-			code that you want to modify, fix, or translate. Codactor's AI-assisted code editor will
-			analyze your selections and execute your edits in the order you specify, ensuring that your
-			code is always accurate and error-free.
+			Other coding assistants falter at the nuance of context—Codactor excels. It remembers past
+			modifications and inquiries, aligning with your project's evolution to provide tailored
+			insights. This is context-aware coding assistance redefined, turning your history into a
+			blueprint for smarter suggestions and precise fixes.
 		</p>
 		<div class="flex mt-16 laptop:w-3/5 tablet:w-4/5">
-			<video
-				autoplay
-				loop
-				muted
-				playsinline
-				class="rounded-xl"
-				aria-label="A user using the WYSIWYG nps theme editor. First, they use our Point and Click editor to easily change the background color of the nps survey. Then, they use our CSS editor to add custom styles."
-			>
-				<source src="/images/demo_video.webm" type="video/webm" />
-			</video>
+			<img
+				src="/images/new/Context Builder.png"
+				alt="Advanced deep reading inquiry"
+				class="z-10 demo"
+			/>
 		</div>
 		<h2 class="text-4xl font-sans-bold pb-4 pt-36">You're Invited</h2>
 		<p class="tablet:w-4/5 laptop:w-3/5 w-full text-left text-text text font-sans z-10">
