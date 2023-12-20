@@ -29,6 +29,7 @@
 			<a href="/">About</a>
 			<a href="/plugin">Plugin</a>
 			<a href="/demos">Demos</a>
+			<a href="/coming-soon">Coming Soon</a>
 			{#if loggedIn}
 				<a href="https://plugins.jetbrains.com/plugin/21640-codactor">Download</a>
 				<a href="/profile" aria-label="Account">
@@ -70,6 +71,7 @@
 			<li><a href="/">About</a></li>
 			<li><a href="/plugin">Plugin</a></li>
 			<li><a href="/demos">Demos</a></li>
+			<li><a href="/coming-soon">Coming Soon</a></li>
 			{#if loggedIn}
 				<li><a href="https://plugins.jetbrains.com/plugin/21640-codactor">Download</a></li>
 				<li class="flex justify-end">
