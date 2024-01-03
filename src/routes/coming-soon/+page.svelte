@@ -17,7 +17,7 @@
 			Visual Code Generation
 		</h1>
 		<p class="text-xl font-sans-semi">
-			Introducing Codactor’s upcoming feature—turning system diagrams into functional code,
+			Introducing Codactor’s upcoming UML Builder feature—turning system diagrams into functional code,
 			specializing in the use of LLMs.
 		</p>
 
