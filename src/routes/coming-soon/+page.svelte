@@ -13,9 +13,11 @@
 	<section
 		class="w-full laptop:px-16 px-4 pt-24 flex flex-col items-center justify-between text-white text-center"
 	>
+
 		<h1 class="text-5xl font-sans-bold tablet:w-[600px] laptop:w-[800px] leading-[4rem] pb-4">
 			Visual Code Generation
 		</h1>
+
 		<p class="text-xl font-sans-semi">
 			Introducing Codactor’s upcoming UML Builder feature—turning system diagrams into functional code,
 			specializing in the use of LLMs.
@@ -41,6 +43,11 @@
 			Warning: Buggy and minimally developed in its current state.
 			UML Diagram file saving is not yet implemented.
 		</p>
+
+		<h2 class="text-4xl font-sans-bold pb-4 mt-32">Secret Video</h2>
+		<div class="py-24 w-full tablet:w-4/5 flex flex-col items-center justify-center">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/r4pN9UPnt_8?si=MJViEve6PQgPGFoO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>
 
 		<div class="flex flex-col mt-24 items-center mb-48" />
 	</section>
