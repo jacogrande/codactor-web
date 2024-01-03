@@ -31,13 +31,15 @@
 		</div>
 
 		<p class="tablet:w-4/5 laptop:w-3/5 w-full text-left text-text text font-sans leading-relaxed">
-			Codactor’s trailblazing feature is set to redefine LLM project development. We aim to break
-			the barrier between abstract system diagrams and dynamic, LLM-optimized codebases. Codactor’s
-			forthcoming functionality is not just about bridging the gap between design and development;
-			it’s about pioneering a path for projects centered around Large Language Models. This tool
-			isn’t simply a translator from visual to virtual; it’s a specialized architect, crafting
-			bespoke code that seamlessly integrates the complexities of LLM chains into your software
-			ecosystem.
+			Codactor’s trailblazing UML Builder feature is set to redefine LLM project development. We aim to break
+			the barrier between abstract system diagrams and dynamic, LLM-optimized codebases.
+			In the future we aim to have diagrams like these able to seamlessly integrate with codactor functionality.
+			We are hoping this can be used either to make custom circuits/functions for Codactor,
+			or to export functional LLM language chain code.
+			Users will be able to create these diagrams simply by creating an .svg file in our intellij plugin and viewing
+			it in our custom svg editor. You can even test this now in our current release.
+			Warning: Buggy and minimally developed in its current state.
+			UML Diagram file saving is not yet implemented.
 		</p>
 
 		<div class="flex flex-col mt-24 items-center mb-48" />
