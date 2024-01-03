@@ -46,7 +46,8 @@
 
 		<h2 class="text-4xl font-sans-bold pb-4 mt-32">Secret Video</h2>
 		<div class="py-24 w-full tablet:w-4/5 flex flex-col items-center justify-center">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/r4pN9UPnt_8?si=MJViEve6PQgPGFoO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<iframe class="w-full laptop:h-[800px] tablet:h-[450px] h-[400px] rounded-xl shadow-lg"
+					src="https://www.youtube.com/embed/r4pN9UPnt_8?si=MJViEve6PQgPGFoO" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 		</div>
 
 		<div class="flex flex-col mt-24 items-center mb-48" />
